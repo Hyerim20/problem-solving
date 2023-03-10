@@ -7,7 +7,7 @@ int main() {
 	cin >> n;
 
 	if (n == 1)
-		cout << 1 << '/' << "\n";
+		cout << 1 << '/' << n << "\n";
 	else {
 		int i = 1;
 		while (n > i) {
